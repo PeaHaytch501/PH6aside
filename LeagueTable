@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>League Table</title>
+
+<style>
+body { font-family:Arial; background:#0b0b0b; color:#fff; }
+nav { background:#111; padding:15px; display:flex; align-items:center; }
+nav img { height:50px; margin-right:20px; }
+nav a { color:#f5c542; margin-right:20px; text-decoration:none; }
+table { width:100%; border-collapse:collapse; margin-top:20px; }
+th, td { padding:10px; border-bottom:1px solid #333; }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <img src="logo.png">
+  <a href="index.html">Home</a>
+  <a href="table.html">League Table</a>
+  <a href="fixtures.html">Fixtures</a>
+  <a href="rules.html">Rules</a>
+</nav>
+
+<h1>League Table</h1>
+
+<table>
+<tr><th>Pos</th><th>Team</th><th>Pts</th></tr>
+<tr><td>1</td><td>Team A</td><td>25</td></tr>
+</table>
+
+</body>
+</html>
