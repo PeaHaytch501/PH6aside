@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fixtures</title>
+
+<style>
+body { font-family:Arial; background:#0b0b0b; color:#fff; }
+nav { background:#111; padding:15px; display:flex; align-items:center; }
+nav img { height:50px; margin-right:20px; }
+nav a { color:#f5c542; margin-right:20px; text-decoration:none; }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <img src="logo.png">
+  <a href="index.html">Home</a>
+  <a href="table.html">League Table</a>
+  <a href="fixtures.html">Fixtures</a>
+  <a href="rules.html">Rules</a>
+</nav>
+
+<h1>Fixtures</h1>
+
+<ul>
+<li>Team A vs Team B</li>
+<li>Team C vs Team D</li>
+</ul>
+
+</body>
+</html>
