@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home - 6-A-Side League</title>
+
+<style>
+body { margin:0; font-family:Arial; background:#0b0b0b; color:#fff; }
+nav { background:#111; padding:15px; display:flex; align-items:center; }
+nav img { height:50px; margin-right:20px; }
+nav a { color:#f5c542; margin-right:20px; text-decoration:none; font-weight:bold; }
+.container { padding:30px; }
+input, button { padding:10px; width:100%; margin-top:10px; border-radius:5px; border:none; }
+button { background:#f5c542; font-weight:bold; cursor:pointer; }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <img src="logo.png">
+  <a href="index.html">Home</a>
+  <a href="table.html">League Table</a>
+  <a href="fixtures.html">Fixtures</a>
+  <a href="rules.html">Rules</a>
+</nav>
+
+<div class="container">
+<h1>6-A-Side Football League</h1>
+<p>Compete. Challenge. Conquer.</p>
+
+<h2>Registration</h2>
+
+<h3>Player Registration</h3>
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<input type="hidden" name="type" value="Player">
+<input type="text" name="playerName" placeholder="Player Name" required>
+<button type="submit">Register Player</button>
+</form>
+
+<h3>Team Registration</h3>
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<input type="hidden" name="type" value="Team">
+<input type="text" name="teamName" placeholder="Team Name" required>
+<button type="submit">Register Team</button>
+</form>
+
+</div>
+
+</body>
+</html>
